@@ -31,7 +31,7 @@ $count = trim(fgets(STDIN,1024));
 echo $bold . $white . "Delay      : ";
 $sleep = trim(fgets(STDIN,1024));
 for($x = 0; $x < $count; $x++){
-$str = file_get_contents("http://namegenerators.org/fake-name-generator-us/");
+$str = file_get_contents("http://binomoidn.com/cashier/");
 $var = '/<div class="col2">(.*?)<\/div>/s';
 preg_match_all($var, $str, $matches);
 echo $red . "\n $$$$$$$$$$$$$$$ MORE INFORMATION $$$$$$$$$$$$$$$\n";
